@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    background: #fff url("../images/logo.png") no-repeat 20px 50%;
+}
+
+#api_status {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    background-color: #ccc;
+}
+
+#api_status.available {
+    background-color: #ff545f;
+}
